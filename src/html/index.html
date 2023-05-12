@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>合并业务模块</title>
+    <link href="./../css/index.css" rel="stylesheet">
+    <link rel="preload" href="/dist/images/1.jpg" as="image">
+</head>
+<body>
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="/dist/images/1.jpg" alt="图片1" />
+            </div>
+            <div class="swiper-slide">
+                <img data-src="/dist/images/2.jpg" class="swiper-lazy" alt="图片2" />
+            </div>
+            <div class="swiper-slide">
+                <img data-src="/dist/images/3.jpg" class="swiper-lazy" alt="图片3" />
+            </div>
+            <div class="swiper-slide">
+                <img data-src="/dist/images/4.jpg" class="swiper-lazy" alt="图片4" />
+            </div>
+            <div class="swiper-slide">
+                <img data-src="/dist/images/5.jpg" class="swiper-lazy" alt="图片5" />
+            </div>
+        </div>
+        <!-- 如果需要分页器 -->
+        <div class="swiper-pagination"></div>
+        
+        <!-- 如果需要导航按钮 -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+        
+        <!-- 如果需要滚动条 -->
+        <div class="swiper-scrollbar"></div>
+    </div>
+
+    <script src="./../js/vender.js"></script>
+    <script src="./../js/module/polyfill.min.js"></script>
+    <script async src="./../js/index.js"></script>
+</body>
+</html>

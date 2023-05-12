@@ -1,0 +1,36 @@
+@import "base.scss";
+@import "module/header.scss";
+@import "module/footer.scss";
+//@import './../../node_modules/swiper/css/swiper.css'; 
+@import 'swiper/swiper.scss';
+@import 'swiper/components/pagination/pagination.scss';
+@import 'swiper/components/navigation/navigation.scss';
+@import 'swiper/components/lazy/lazy.scss';
+
+.swiper-container {
+  width: 600px;
+  height: 340px;
+  margin: 20px auto !important;
+  overflow: hidden;
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+}

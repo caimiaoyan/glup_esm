@@ -1,0 +1,64 @@
+body,p,h1,h2,h3,h4,h5,h6,ul,ol,dl,li,dt,dd{
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  font-family: "Microsoft Yahei",sans-serif;
+  color: #666;
+  list-style: none;
+  cursor: default;
+}
+
+input,img{
+  margin: 0;
+  padding: 0;
+  border: 0 none;
+  outline-style: none;
+  vertical-align: bottom; 
+}
+
+a{
+  &:hover{
+    color:#333;
+  }
+  &:active, &:visited{
+    text-decoration: none;
+    color: #ccc;
+  }
+}
+
+textarea{
+  border:none;
+  outline: none;
+  resize: none;
+}
+
+i{
+  font-style: normal; 
+}
+
+table{
+  border-collapse:collapse;
+  border-spacing:0;
+}
+
+.clearfix{
+  &::before, &::after{
+    height: 0;
+    line-height: 0;
+    display: block;
+    visibility: none;
+    clear: both;
+  }
+  *zoom: 1;
+}
+
+input[type="radio"],input[type="checkbox"]{
+  appearance: none;
+  outline: none;
+  display: none;
+}
+
+label{
+  display: inline-block;
+  cursor: pointer;
+}
